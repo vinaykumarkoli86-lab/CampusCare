@@ -1,0 +1,664 @@
+{
+  "nextComplaintSequence": 1014,
+  "users": [
+    {
+      "id": "usr_admin_env",
+      "name": "CampusCare Administrator",
+      "email": "campuscare.admin@campus.edu",
+      "role": "admin",
+      "department": "Campus Command Administration",
+      "createdAt": "2026-11-14T07:46:58.082Z",
+      "passwordHash": "4db80e06d647f80f279a861d571c352d:1c45efe31cff47e31172244f5845b1cee2f6a67c701dde606f2f92d3b9d47c22d04d352a98e6c9437e95b44cc1967584eb1591c28d33f5ab2d24c3f2e5193bcd"
+    },
+    {
+      "id": "usr_admin_01",
+      "name": "Dr. Vikramaditya Rao",
+      "email": "admin@campuscare.edu",
+      "role": "admin",
+      "department": "Dean of Campus Operations",
+      "createdAt": "2026-10-15T07:12:03.304Z",
+      "passwordHash": "8f684ab3dced98be488a1fd6b80ec480:0dd5032194c9d5d17ff7d5f4eeef8e2bf5acdd30a23fe8f2f38d97697d0f91c58cd52e0d9d7fddc2e19f4276d0e0ddd7a7c74a8c703992ca5ae71675ff3ec61f"
+    },
+    {
+      "id": "usr_admin_02",
+      "name": "Vinay Kumar Koli",
+      "email": "vinaykumarkoli86@gmail.com",
+      "role": "admin",
+      "department": "Campus Command Administration",
+      "createdAt": "2026-10-15T07:12:03.374Z",
+      "passwordHash": "244982399346969266abbe2d60b9f63e:523e75d6ec98b5f7f0a3ff1a196cdf69a52b34d21bdd6de364d9818f309f1be194cab9e82087255ed29c65f950e76a2c3472ff8aaad36c6d6f068b79a51d9f51"
+    },
+    {
+      "id": "usr_stu_01",
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@campus.edu",
+      "role": "student",
+      "studentIdNumber": "CS2024-118",
+      "department": "Computer Science & Engineering",
+      "createdAt": "2026-10-20T07:12:03.444Z",
+      "passwordHash": "5c0bfb961b32fc846505ed44ecfb12ea:0aca2e7362ee991a39b7c9cddaa7875768b0b410f4b728a018039d2544da8876700f5b4db2ebe946e31905a22b5cb0b60bed41258e1678298299ae9cd9808eda"
+    },
+    {
+      "id": "usr_stu_02",
+      "name": "Meera Patel",
+      "email": "meera.patel@campus.edu",
+      "role": "student",
+      "studentIdNumber": "EC2024-042",
+      "department": "Electronics & Communication",
+      "createdAt": "2026-10-24T11:12:03.500Z",
+      "passwordHash": "c0513fc354094085c92ac1e2c38ba7e4:f2e941310b9ed4f8b2c54b55649a6a477b66a92f29589317b96b3e568cb8a7b859fb1986d654efb3a82d5825db52ede9eb191a4f4fbd711738dae4e902e6d49e"
+    },
+    {
+      "id": "usr_stu_03",
+      "name": "Rohan Nair",
+      "email": "rohan.nair@campus.edu",
+      "role": "student",
+      "studentIdNumber": "ME2023-209",
+      "department": "Mechanical Engineering",
+      "createdAt": "2026-10-26T13:12:03.550Z",
+      "passwordHash": "b46e07b706ff281b3b5cdf6f4d4060fb:7b2cba850cd8436de0f388bd2c81b178b1e20fd991a64d01aa8c878b02cba4448ef5aeac7b3efbe1a3134935d53fab1c829bcc358ce1efc6d773eca3faac69d2"
+    },
+    {
+      "id": "usr_2819c99572ad",
+      "name": "Vinay kumar",
+      "email": "2611cs020129@mallareddyuniversity.ac.in",
+      "role": "student",
+      "studentIdNumber": "2611cs020129",
+      "department": "Computer Science & Engineering",
+      "createdAt": "2026-11-14T07:23:27.006Z",
+      "passwordHash": "4a3cf4613bf17622fd21788064c41e8c:5b25d33f48514f837042768b242dfcf133e25259bf7f66e3c451e13354681a8ab9e4e5325de2590752ca61610c9ae02cca6f77d78420397ff3fb3dabe4d5ee7e"
+    }
+  ],
+  "complaints": [
+    {
+      "id": "cmp_2dc40b89ca34",
+      "complaintCode": "CC-2026-1013",
+      "title": "Classroom Projector Not Working",
+      "category": "Infrastructure",
+      "description": "The classroom projector is not working properly. Students are facing difficulties during presentations and classroom activities. Please resolve this issue as soon as possible.",
+      "location": "North Hostel Block A",
+      "priority": "High",
+      "status": "Pending",
+      "department": "Unassigned",
+      "isAnonymous": false,
+      "studentId": "usr_2819c99572ad",
+      "studentName": "Vinay kumar",
+      "studentEmail": "2611cs020129@mallareddyuniversity.ac.in",
+      "studentRollNumber": "2611cs020129",
+      "upvotes": 1,
+      "createdAt": "2026-11-14T07:28:48.175Z",
+      "updatedAt": "2026-11-14T07:28:48.175Z",
+      "statusHistory": [
+        {
+          "id": "sh_cf1c5c2e08",
+          "status": "Pending",
+          "comment": "Complaint submitted and awaiting initial triage.",
+          "updatedBy": "Vinay kumar",
+          "updatedByRole": "student",
+          "department": "Unassigned",
+          "timestamp": "2026-11-14T07:28:48.175Z"
+        }
+      ]
+    },
+    {
+      "id": "cmp_1001",
+      "complaintCode": "CC-2026-0101",
+      "title": "Main electrical distribution panel sparking on 3rd floor corridor",
+      "category": "Electrical",
+      "description": "Circuit breaker cabinet outside Room 304 is emitting intermittent sparks and a burnt insulation smell whenever the lab HVAC compressors cycle.",
+      "location": "Engineering Block C",
+      "priority": "Urgent",
+      "status": "In Progress",
+      "department": "Electrical Engineering",
+      "isAnonymous": false,
+      "studentId": "usr_stu_01",
+      "studentName": "Aarav Sharma",
+      "studentEmail": "aarav.sharma@campus.edu",
+      "studentRollNumber": "CS2024-118",
+      "adminComment": "High-voltage maintenance crew dispatched. Corridor sub-panel isolated on backup feeder while relay module is replaced.",
+      "upvotes": 14,
+      "createdAt": "2026-11-14T01:12:03.600Z",
+      "updatedAt": "2026-11-14T05:12:03.600Z",
+      "statusHistory": [
+        {
+          "id": "sh_1001_1",
+          "status": "Pending",
+          "comment": "Complaint submitted by student and flagged as Urgent.",
+          "updatedBy": "Aarav Sharma",
+          "updatedByRole": "student",
+          "department": "Unassigned",
+          "timestamp": "2026-11-14T01:12:03.600Z"
+        },
+        {
+          "id": "sh_1001_2",
+          "status": "Under Review",
+          "comment": "Escalated immediately to Electrical Engineering safety lead.",
+          "updatedBy": "Dr. Vikramaditya Rao",
+          "updatedByRole": "admin",
+          "department": "Electrical Engineering",
+          "timestamp": "2026-11-14T02:42:03.600Z"
+        },
+        {
+          "id": "sh_1001_3",
+          "status": "In Progress",
+          "comment": "High-voltage maintenance crew dispatched. Corridor sub-panel isolated on backup feeder while relay module is replaced.",
+          "updatedBy": "Dr. Vikramaditya Rao",
+          "updatedByRole": "admin",
+          "department": "Electrical Engineering",
+          "timestamp": "2026-11-14T05:12:03.600Z"
+        }
+      ]
+    },
+    {
+      "id": "cmp_1002",
+      "complaintCode": "CC-2026-0102",
+      "title": "Campus Wi-Fi 6 access points dropping packets in Reading Hall 2",
+      "category": "IT & Wi-Fi",
+      "description": "Students preparing for mid-semester assessments experience continuous DNS timeouts and 40% packet loss on EduNet-5GHz across the east wing desks.",
+      "location": "Central Library",
+      "priority": "High",
+      "status": "In Progress",
+      "department": "Campus IT Services",
+      "isAnonymous": false,
+      "studentId": "usr_stu_01",
+      "studentName": "Aarav Sharma",
+      "studentEmail": "aarav.sharma@campus.edu",
+      "studentRollNumber": "CS2024-118",
+      "adminComment": "Channel interference confirmed on AP-LIB-09 and AP-LIB-11. Firmware rollback and PoE switch replacement scheduled.",
+      "upvotes": 22,
+      "createdAt": "2026-11-13T03:12:03.600Z",
+      "updatedAt": "2026-11-13T23:12:03.600Z",
+      "statusHistory": [
+        {
+          "id": "sh_1002_1",
+          "status": "Pending",
+          "comment": "Ticket logged with packet loss diagnostics.",
+          "updatedBy": "Aarav Sharma",
+          "updatedByRole": "student",
+          "department": "Unassigned",
+          "timestamp": "2026-11-13T03:12:03.600Z"
+        },
+        {
+          "id": "sh_1002_2",
+          "status": "In Progress",
+          "comment": "Channel interference confirmed on AP-LIB-09 and AP-LIB-11. Firmware rollback and PoE switch replacement scheduled.",
+          "updatedBy": "Dr. Vikramaditya Rao",
+          "updatedByRole": "admin",
+          "department": "Campus IT Services",
+          "timestamp": "2026-11-13T23:12:03.600Z"
+        }
+      ]
+    },
+    {
+      "id": "cmp_1003",
+      "complaintCode": "CC-2026-0103",
+      "title": "Hot water boiler failure and low pressure on Floor 4 showers",
+      "category": "Hostel & Mess",
+      "description": "Solar-electric hybrid water heater for North Wing Floor 4 has been offline since yesterday evening, leaving 48 residents without hot water.",
+      "location": "North Hostel Block A",
+      "priority": "High",
+      "status": "Resolved",
+      "department": "Hostel Administration",
+      "isAnonymous": false,
+      "studentId": "usr_stu_02",
+      "studentName": "Meera Patel",
+      "studentEmail": "meera.patel@campus.edu",
+      "studentRollNumber": "EC2024-042",
+      "adminComment": "Replaced thermostat valve and bled pressure manifold. Full thermal output verified at 58°C.",
+      "upvotes": 19,
+      "createdAt": "2026-11-12T13:12:03.600Z",
+      "updatedAt": "2026-11-13T05:12:03.600Z",
+      "resolvedAt": "2026-11-13T05:12:03.600Z",
+      "statusHistory": [
+        {
+          "id": "sh_1003_1",
+          "status": "Pending",
+          "comment": "Reported outage affecting Floor 4 washrooms.",
+          "updatedBy": "Meera Patel",
+          "updatedByRole": "student",
+          "department": "Unassigned",
+          "timestamp": "2026-11-12T13:12:03.600Z"
+        },
+        {
+          "id": "sh_1003_2",
+          "status": "In Progress",
+          "comment": "Plumbing technician inspecting heat exchanger valve.",
+          "updatedBy": "Dr. Vikramaditya Rao",
+          "updatedByRole": "admin",
+          "department": "Hostel Administration",
+          "timestamp": "2026-11-12T21:12:03.600Z"
+        },
+        {
+          "id": "sh_1003_3",
+          "status": "Resolved",
+          "comment": "Replaced thermostat valve and bled pressure manifold. Full thermal output verified at 58°C.",
+          "updatedBy": "Dr. Vikramaditya Rao",
+          "updatedByRole": "admin",
+          "department": "Hostel Administration",
+          "timestamp": "2026-11-13T05:12:03.600Z"
+        }
+      ]
+    },
+    {
+      "id": "cmp_1004",
+      "complaintCode": "CC-2026-0104",
+      "title": "Broken perimeter security floodlight near West Gate bicycle bay",
+      "category": "Security & Safety",
+      "description": "Two LED mast floodlights along the walkway connecting Hostel Block A and Engineering Block C have completely failed, creating a dark blind spot after 7 PM.",
+      "location": "North Hostel Block A",
+      "priority": "Urgent",
+      "status": "Under Review",
+      "department": "Campus Security",
+      "isAnonymous": true,
+      "studentId": "usr_stu_01",
+      "studentName": "Aarav Sharma",
+      "studentEmail": "aarav.sharma@campus.edu",
+      "studentRollNumber": "CS2024-118",
+      "adminComment": "Temporary mobile security patrol assigned to West Gate path while mast lighting crew inspects underground conduit.",
+      "upvotes": 11,
+      "createdAt": "2026-11-14T02:12:03.600Z",
+      "updatedAt": "2026-11-14T04:12:03.600Z",
+      "statusHistory": [
+        {
+          "id": "sh_1004_1",
+          "status": "Pending",
+          "comment": "Anonymous safety report filed.",
+          "updatedBy": "Anonymous Student",
+          "updatedByRole": "student",
+          "department": "Unassigned",
+          "timestamp": "2026-11-14T02:12:03.600Z"
+        },
+        {
+          "id": "sh_1004_2",
+          "status": "Under Review",
+          "comment": "Temporary mobile security patrol assigned to West Gate path while mast lighting crew inspects underground conduit.",
+          "updatedBy": "Dr. Vikramaditya Rao",
+          "updatedByRole": "admin",
+          "department": "Campus Security",
+          "timestamp": "2026-11-14T04:12:03.600Z"
+        }
+      ]
+    },
+    {
+      "id": "cmp_1005",
+      "complaintCode": "CC-2026-0105",
+      "title": "Water seepage from ceiling duct in Chemistry Synthesis Lab 2B",
+      "category": "Infrastructure",
+      "description": "Chilled-water HVAC condensation line above fume hood #3 is dripping onto the benchtop area. Bucket placed temporarily to protect analytical balances.",
+      "location": "Science Lab Wing",
+      "priority": "Urgent",
+      "status": "Pending",
+      "department": "Facilities & Maintenance",
+      "isAnonymous": false,
+      "studentId": "usr_stu_03",
+      "studentName": "Rohan Nair",
+      "studentEmail": "rohan.nair@campus.edu",
+      "studentRollNumber": "ME2023-209",
+      "upvotes": 8,
+      "createdAt": "2026-11-14T04:42:03.600Z",
+      "updatedAt": "2026-11-14T04:42:03.600Z",
+      "statusHistory": [
+        {
+          "id": "sh_1005_1",
+          "status": "Pending",
+          "comment": "Urgent lab infrastructure report logged.",
+          "updatedBy": "Rohan Nair",
+          "updatedByRole": "student",
+          "department": "Unassigned",
+          "timestamp": "2026-11-14T04:42:03.600Z"
+        }
+      ]
+    },
+    {
+      "id": "cmp_1006",
+      "complaintCode": "CC-2026-0106",
+      "title": "RO drinking water dispenser filter warning & metallic taste",
+      "category": "Sanitation",
+      "description": "Ground floor hydration station near the Canteen billing counter shows red TDS warning indicator (380 ppm) and needs cartridge replacement.",
+      "location": "Student Canteen",
+      "priority": "High",
+      "status": "Resolved",
+      "department": "Sanitation & Grounds",
+      "isAnonymous": false,
+      "studentId": "usr_stu_02",
+      "studentName": "Meera Patel",
+      "studentEmail": "meera.patel@campus.edu",
+      "studentRollNumber": "EC2024-042",
+      "adminComment": "RO membrane and carbon pre-filter replaced. Post-flush TDS measured at 42 ppm.",
+      "upvotes": 16,
+      "createdAt": "2026-11-11T07:12:03.600Z",
+      "updatedAt": "2026-11-11T21:12:03.600Z",
+      "resolvedAt": "2026-11-11T21:12:03.600Z",
+      "statusHistory": [
+        {
+          "id": "sh_1006_1",
+          "status": "Pending",
+          "comment": "Reported high TDS reading on Canteen RO unit.",
+          "updatedBy": "Meera Patel",
+          "updatedByRole": "student",
+          "department": "Unassigned",
+          "timestamp": "2026-11-11T07:12:03.600Z"
+        },
+        {
+          "id": "sh_1006_2",
+          "status": "Resolved",
+          "comment": "RO membrane and carbon pre-filter replaced. Post-flush TDS measured at 42 ppm.",
+          "updatedBy": "Dr. Vikramaditya Rao",
+          "updatedByRole": "admin",
+          "department": "Sanitation & Grounds",
+          "timestamp": "2026-11-11T21:12:03.600Z"
+        }
+      ]
+    },
+    {
+      "id": "cmp_1007",
+      "complaintCode": "CC-2026-0107",
+      "title": "4K laser projector color wheel flickering in Seminar Hall A",
+      "category": "Academic Facilities",
+      "description": "During morning algorithms lectures, the ceiling-mounted projector flickers magenta every 10 minutes and drops HDMI signal from the podium dock.",
+      "location": "Engineering Block C",
+      "priority": "Medium",
+      "status": "Resolved",
+      "department": "Academic Operations",
+      "isAnonymous": false,
+      "studentId": "usr_stu_01",
+      "studentName": "Aarav Sharma",
+      "studentEmail": "aarav.sharma@campus.edu",
+      "studentRollNumber": "CS2024-118",
+      "adminComment": "Replaced active optical HDMI repeater and cleaned laser phosphor intake filter. Tested 2-hour continuous projection.",
+      "upvotes": 9,
+      "createdAt": "2026-11-10T07:12:03.600Z",
+      "updatedAt": "2026-11-11T01:12:03.600Z",
+      "resolvedAt": "2026-11-11T01:12:03.600Z",
+      "statusHistory": [
+        {
+          "id": "sh_1007_1",
+          "status": "Pending",
+          "comment": "Logged AV hardware issue for Seminar Hall A.",
+          "updatedBy": "Aarav Sharma",
+          "updatedByRole": "student",
+          "department": "Unassigned",
+          "timestamp": "2026-11-10T07:12:03.600Z"
+        },
+        {
+          "id": "sh_1007_2",
+          "status": "In Progress",
+          "comment": "AV engineer inspecting ceiling mount and HDMI matrix.",
+          "updatedBy": "Dr. Vikramaditya Rao",
+          "updatedByRole": "admin",
+          "department": "Academic Operations",
+          "timestamp": "2026-11-10T17:12:03.600Z"
+        },
+        {
+          "id": "sh_1007_3",
+          "status": "Resolved",
+          "comment": "Replaced active optical HDMI repeater and cleaned laser phosphor intake filter. Tested 2-hour continuous projection.",
+          "updatedBy": "Dr. Vikramaditya Rao",
+          "updatedByRole": "admin",
+          "department": "Academic Operations",
+          "timestamp": "2026-11-11T01:12:03.600Z"
+        }
+      ]
+    },
+    {
+      "id": "cmp_1008",
+      "complaintCode": "CC-2026-0108",
+      "title": "Badminton court synthetic mat peeling near baseline",
+      "category": "Infrastructure",
+      "description": "Court 2 PVC flooring seam has lifted by nearly 2cm near the north service line, creating a tripping hazard during evening intramural matches.",
+      "location": "Sports Complex",
+      "priority": "Medium",
+      "status": "Under Review",
+      "department": "Facilities & Maintenance",
+      "isAnonymous": false,
+      "studentId": "usr_stu_03",
+      "studentName": "Rohan Nair",
+      "studentEmail": "rohan.nair@campus.edu",
+      "studentRollNumber": "ME2023-209",
+      "adminComment": "Court 2 cordoned off. Flooring vendor scheduled for heat-weld seam repair tomorrow at 9 AM.",
+      "upvotes": 7,
+      "createdAt": "2026-11-12T19:12:03.600Z",
+      "updatedAt": "2026-11-13T11:12:03.600Z",
+      "statusHistory": [
+        {
+          "id": "sh_1008_1",
+          "status": "Pending",
+          "comment": "Safety hazard reported on Indoor Court 2.",
+          "updatedBy": "Rohan Nair",
+          "updatedByRole": "student",
+          "department": "Unassigned",
+          "timestamp": "2026-11-12T19:12:03.600Z"
+        },
+        {
+          "id": "sh_1008_2",
+          "status": "Under Review",
+          "comment": "Court 2 cordoned off. Flooring vendor scheduled for heat-weld seam repair tomorrow at 9 AM.",
+          "updatedBy": "Dr. Vikramaditya Rao",
+          "updatedByRole": "admin",
+          "department": "Facilities & Maintenance",
+          "timestamp": "2026-11-13T11:12:03.600Z"
+        }
+      ]
+    },
+    {
+      "id": "cmp_1009",
+      "complaintCode": "CC-2026-0109",
+      "title": "Acoustic echo & wireless mic dropouts in Main Auditorium balcony",
+      "category": "Academic Facilities",
+      "description": "Rear balcony speakers have noticeable delay mismatch during symposium Q&A sessions and handheld mic #2 cuts out beyond row 12.",
+      "location": "Main Auditorium",
+      "priority": "Low",
+      "status": "Resolved",
+      "department": "Academic Operations",
+      "isAnonymous": false,
+      "studentId": "usr_stu_02",
+      "studentName": "Meera Patel",
+      "studentEmail": "meera.patel@campus.edu",
+      "studentRollNumber": "EC2024-042",
+      "adminComment": "Recalibrated DSP delay timing (18ms) and repositioned UHF diversity antenna.",
+      "upvotes": 5,
+      "createdAt": "2026-11-09T07:12:03.600Z",
+      "updatedAt": "2026-11-10T01:12:03.600Z",
+      "resolvedAt": "2026-11-10T01:12:03.600Z",
+      "statusHistory": [
+        {
+          "id": "sh_1009_1",
+          "status": "Pending",
+          "comment": "Submitted auditorium acoustic calibration request.",
+          "updatedBy": "Meera Patel",
+          "updatedByRole": "student",
+          "department": "Unassigned",
+          "timestamp": "2026-11-09T07:12:03.600Z"
+        },
+        {
+          "id": "sh_1009_2",
+          "status": "Resolved",
+          "comment": "Recalibrated DSP delay timing (18ms) and repositioned UHF diversity antenna.",
+          "updatedBy": "Dr. Vikramaditya Rao",
+          "updatedByRole": "admin",
+          "department": "Academic Operations",
+          "timestamp": "2026-11-10T01:12:03.600Z"
+        }
+      ]
+    },
+    {
+      "id": "cmp_1010",
+      "complaintCode": "CC-2026-0110",
+      "title": "Overflowing recycling bins behind North Hostel Block B courtyard",
+      "category": "Sanitation",
+      "description": "Waste collection skip near Block B east exit has not been cleared in two days and is attracting stray animals.",
+      "location": "North Hostel Block B",
+      "priority": "Medium",
+      "status": "Resolved",
+      "department": "Sanitation & Grounds",
+      "isAnonymous": false,
+      "studentId": "usr_stu_03",
+      "studentName": "Rohan Nair",
+      "studentEmail": "rohan.nair@campus.edu",
+      "studentRollNumber": "ME2023-209",
+      "adminComment": "Cleared all bins, sanitized pad, and added twice-daily pickup window for Block B.",
+      "upvotes": 6,
+      "createdAt": "2026-11-12T05:12:03.600Z",
+      "updatedAt": "2026-11-12T11:12:03.600Z",
+      "resolvedAt": "2026-11-12T11:12:03.600Z",
+      "statusHistory": [
+        {
+          "id": "sh_1010_1",
+          "status": "Pending",
+          "comment": "Reported overflowing bins at Block B.",
+          "updatedBy": "Rohan Nair",
+          "updatedByRole": "student",
+          "department": "Unassigned",
+          "timestamp": "2026-11-12T05:12:03.600Z"
+        },
+        {
+          "id": "sh_1010_2",
+          "status": "Resolved",
+          "comment": "Cleared all bins, sanitized pad, and added twice-daily pickup window for Block B.",
+          "updatedBy": "Dr. Vikramaditya Rao",
+          "updatedByRole": "admin",
+          "department": "Sanitation & Grounds",
+          "timestamp": "2026-11-12T11:12:03.600Z"
+        }
+      ]
+    },
+    {
+      "id": "cmp_1011",
+      "complaintCode": "CC-2026-0111",
+      "title": "Card-reader turnstile jammed at Central Library east entrance",
+      "category": "Security & Safety",
+      "description": "Student ID NFC reader on Gate 2 fails to unlock the barrier arm for valid cards, causing bottlenecks between 9 AM and 10 AM.",
+      "location": "Central Library",
+      "priority": "High",
+      "status": "Resolved",
+      "department": "Campus Security",
+      "isAnonymous": false,
+      "studentId": "usr_stu_01",
+      "studentName": "Aarav Sharma",
+      "studentEmail": "aarav.sharma@campus.edu",
+      "studentRollNumber": "CS2024-118",
+      "adminComment": "Replaced RFID antenna coil and lubricated solenoid latch.",
+      "upvotes": 12,
+      "createdAt": "2026-11-11T11:12:03.600Z",
+      "updatedAt": "2026-11-11T22:12:03.600Z",
+      "resolvedAt": "2026-11-11T22:12:03.601Z",
+      "statusHistory": [
+        {
+          "id": "sh_1011_1",
+          "status": "Pending",
+          "comment": "Reported Gate 2 NFC turnstile malfunction.",
+          "updatedBy": "Aarav Sharma",
+          "updatedByRole": "student",
+          "department": "Unassigned",
+          "timestamp": "2026-11-11T11:12:03.601Z"
+        },
+        {
+          "id": "sh_1011_2",
+          "status": "Resolved",
+          "comment": "Replaced RFID antenna coil and lubricated solenoid latch.",
+          "updatedBy": "Dr. Vikramaditya Rao",
+          "updatedByRole": "admin",
+          "department": "Campus Security",
+          "timestamp": "2026-11-11T22:12:03.601Z"
+        }
+      ]
+    },
+    {
+      "id": "cmp_1012",
+      "complaintCode": "CC-2026-0112",
+      "title": "Request to convert study lounge into private gaming room",
+      "category": "Academic Facilities",
+      "description": "Proposal to remove quiet study carrels on Library Mezzanine and install console gaming booths.",
+      "location": "Central Library",
+      "priority": "Low",
+      "status": "Rejected",
+      "department": "Academic Operations",
+      "isAnonymous": false,
+      "studentId": "usr_stu_03",
+      "studentName": "Rohan Nair",
+      "studentEmail": "rohan.nair@campus.edu",
+      "studentRollNumber": "ME2023-209",
+      "adminComment": "Library Mezzanine is designated as a silent academic zone per Student Senate Charter. Recreational lounges remain in the Student Center.",
+      "upvotes": 2,
+      "createdAt": "2026-11-08T11:12:03.601Z",
+      "updatedAt": "2026-11-08T21:12:03.601Z",
+      "statusHistory": [
+        {
+          "id": "sh_1012_1",
+          "status": "Pending",
+          "comment": "Submitted facility reallocation request.",
+          "updatedBy": "Rohan Nair",
+          "updatedByRole": "student",
+          "department": "Unassigned",
+          "timestamp": "2026-11-08T11:12:03.601Z"
+        },
+        {
+          "id": "sh_1012_2",
+          "status": "Rejected",
+          "comment": "Library Mezzanine is designated as a silent academic zone per Student Senate Charter. Recreational lounges remain in the Student Center.",
+          "updatedBy": "Dr. Vikramaditya Rao",
+          "updatedByRole": "admin",
+          "department": "Academic Operations",
+          "timestamp": "2026-11-08T21:12:03.601Z"
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "ntf_cf240f806f",
+      "userId": "usr_2819c99572ad",
+      "complaintId": "cmp_2dc40b89ca34",
+      "complaintCode": "CC-2026-1013",
+      "title": "Complaint Registered",
+      "message": "Ticket CC-2026-1013 (\"Classroom Projector Not Working\") has been logged for review.",
+      "status": "Pending",
+      "isRead": false,
+      "createdAt": "2026-11-14T07:28:48.175Z"
+    },
+    {
+      "id": "ntf_01",
+      "userId": "usr_stu_01",
+      "complaintId": "cmp_1001",
+      "complaintCode": "CC-2026-0101",
+      "title": "Status Updated: In Progress",
+      "message": "Electrical Engineering crew dispatched to Engineering Block C 3rd floor corridor.",
+      "status": "In Progress",
+      "isRead": false,
+      "createdAt": "2026-11-14T05:12:03.601Z"
+    },
+    {
+      "id": "ntf_02",
+      "userId": "usr_stu_01",
+      "complaintId": "cmp_1004",
+      "complaintCode": "CC-2026-0104",
+      "title": "Assigned to Campus Security",
+      "message": "Your anonymous safety report at North Hostel Block A is now Under Review.",
+      "status": "Under Review",
+      "isRead": false,
+      "createdAt": "2026-11-14T04:12:03.601Z"
+    },
+    {
+      "id": "ntf_03",
+      "userId": "usr_stu_01",
+      "complaintId": "cmp_1002",
+      "complaintCode": "CC-2026-0102",
+      "title": "IT Diagnostics Underway",
+      "message": "Campus IT Services confirmed AP interference in Reading Hall 2 and scheduled switch replacement.",
+      "status": "In Progress",
+      "isRead": true,
+      "createdAt": "2026-11-13T23:12:03.601Z"
+    },
+    {
+      "id": "ntf_04",
+      "userId": "usr_stu_02",
+      "complaintId": "cmp_1003",
+      "complaintCode": "CC-2026-0103",
+      "title": "Complaint Resolved",
+      "message": "Boiler thermostat valve replaced in North Hostel Block A. Hot water restored.",
+      "status": "Resolved",
+      "isRead": false,
+      "createdAt": "2026-11-13T05:12:03.601Z"
+    }
+  ]
+}

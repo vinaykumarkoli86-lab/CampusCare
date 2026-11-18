@@ -1,0 +1,6 @@
+{
+  "name": "CAMPUSCARE",
+  "description": "CAMPUSCARE – Smart Campus Complaint Management System. A smarter way to report, track and resolve campus problems.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
